@@ -1,11 +1,10 @@
-
 :root {
-        --color-primary: #434455;
-        --color-secondary: #4d5ae5;
-        --color-accent: #2e2f42;
-        --color-background: #e7e9fc;
---color-whitee: #ffffff;
---color-cloud: #f4f4fd
+  --color-primary: #434455;
+  --color-secondary: #4d5ae5;
+  --color-accent: #2e2f42;
+  --color-background: #e7e9fc;
+  --color-whitee: #ffffff;
+  --color-cloud: #f4f4fd;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -14,14 +13,14 @@ body {
 }
 
 .header-logo {
-color: var(--color-accent) ze: 18px;
+  color: var(--color-accent);
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 800;
   line-height: 21px;
   letter-spacing: 0.54px;
-font-size: 18px;
-letter-spacing: 0.03;
+  font-size: 18px;
+  letter-spacing: 0.03em;
 
   line-height: 1.17;
 }
@@ -33,7 +32,7 @@ letter-spacing: 0.03;
 }
 
 .logo {
- color: var(--color-accent);
+  color: var(--color-accent);
   font-size: 18px;
   font-family: "Raleway", sans-serif;
 
@@ -50,7 +49,6 @@ letter-spacing: 0.03;
 }
 .header-link {
   font-size: 16px;
-  
 
   font-weight: 500;
   line-height: 24px;
@@ -59,7 +57,6 @@ letter-spacing: 0.03;
 .header-address {
   color: var(--color-primary);
   font-size: 16px;
-  
 
   line-height: 24px;
   letter-spacing: 0.32px;
@@ -74,7 +71,7 @@ letter-spacing: 0.03;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-line-height: 1.07
+  line-height: 1.07;
 }
 
 .solutions-button {
@@ -96,7 +93,7 @@ line-height: 1.07
   /* Header 3 */
   font-size: 20px;
   font-family: "Roboto", sans-serif;
-letter-spacing: 0.02em;
+  letter-spacing: 0.02em;
   font-weight: 500;
   line-height: 24px;
 }
@@ -114,16 +111,16 @@ letter-spacing: 0.02em;
   text-align: center;
   /* Header 2 */
   font-size: 36px;
-line-height: 1.11;
+  line-height: 1.11;
   font-weight: 700;
   line-height: 40px;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
 .team {
-color: var(--color-accent);
+  color: var(--color-accent);
   font-size: 36px;
-  
+
   font-weight: 700;
   line-height: 40px;
   letter-spacing: 0.72px;
@@ -155,11 +152,11 @@ color: var(--color-accent);
 
   font-size: 16px;
   font-family: "Raleway", sans-serif;
-line-height: 1.17;
-letter-spacing: 0.03px;
-text-transform: uppercase;
+  line-height: 1.17;
+  letter-spacing: 0.03px;
+  text-transform: uppercase;
 }
- .buttons-element {
+.buttons-element {
   font-size: 16px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -167,20 +164,19 @@ text-transform: uppercase;
   letter-spacing: 0.64px;
 }
 .posters-name {
-  color: var(--color-accent, );
- 
+  color: var(--color-accent);
+
   font-size: 20px;
-  
+
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.4px;
 }
 .info {
-  color: var( --color-primary );
+  color: var(--color-primary);
   /* Body */
   font-size: 16px;
-  
-  
+
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
