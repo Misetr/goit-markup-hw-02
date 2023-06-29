@@ -1,7 +1,9 @@
 :root {
   --text-color: #2e2f42;
 }
-
+.header {width: 1440px;
+height: 72px;
+flex-shrink: 0;}
 .header-logo {
   color: var(--iris, #4d5ae5);
   font-size: 18px;
@@ -28,9 +30,23 @@
   line-height: 21px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+} 
+.header-nav { 
+   display: inline-flex;
+align-items: flex-start;
+gap: 40px;
+border-bottom: 1px solid var(--cornflower, #E7E9FC);
+background: var(--white, #FFF);
 }
+ .header-link   {
 
-.address {
+ font-size: 16px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.32px; }
+.header-address {
   color: var(--slate, #434455);
   font-size: 16px;
   font-family: Roboto;
