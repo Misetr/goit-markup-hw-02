@@ -1,46 +1,36 @@
-     :root {
-         --text-color: #2e2f42;
-     }
+:root {
+  --text-color: #2e2f42;
+}
 
-     .main-logo {
-        color: var(--iris, #4D5AE5);
-            font-size: 18px;
-            font-family: Raleway;
-            font-style: normal;
-            font-weight: 800;
-            line-height: 21px;
-            letter-spacing: 0.54px;
-            text-transform: uppercase;
-     }
+.header-logo {
+  color: var(--iris, #4d5ae5);
+  font-size: 18px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
 
-     .link {
-         text-decoration: none;
-         
-     }
+.link {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
 
-     /* Ваші стилі для класу "logo" */
-     .logo {
-        color: var(--navyblue, #2E2F42);
-            font-size: 18px;
-            font-family: Raleway;
-            font-style: normal;
-            font-weight: 800;
-            line-height: 21px;
-            letter-spacing: 0.54px;
-            text-transform: uppercase;
-     }
-         .list {
-            color: var(--navyblue, #2E2F42);
-                /* Body Medium */
-                font-size: 16px;
-                font-family: Roboto;
-                font-style: normal;
-                font-weight: 500;
-                line-height: 24px;
-                letter-spacing: 0.32px;
-                text-decoration: none;
-         }
-         .contact {
+.logo {
+  color: var(--navyblue, #2e2f42);
+  font-size: 18px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.address {
   color: var(--slate, #434455);
   font-size: 16px;
   font-family: Roboto;
@@ -51,64 +41,27 @@
 }
 
 .solutions {
-    background-color: #2e2f42;
+  background-color: #2e2f42;
 }
 
 .solutions-text {
-    font-size: 56px;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #ffffff;
+  font-size: 56px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 
-    .order-button {
-            background-color: #4D5AE5;
-            font-family: "Roboto", sans-serif;
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 1.5;
-            letter-spacing: 0.04em;
-            color: #ffffff;
-            cursor: pointer;
-        };
-
-.order-button:hover {
-    background-color: #404BBF;
-}
-.list {
-    list-style-type: disc;
-    padding-left: 20px;
-    display: flex;
-        width: 264px;
-        height: 122px;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 8px;
-        flex-shrink: 0;
+.solutions-button {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
 }
 
-.list li {
-    margin-bottom: 10px;
-}
-
-.list h3 {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 5px;
-    color: #2E2F42;
-}
-
-.list p {
-    font-size: 14px;
-    line-height: 1.5;
-    color: #434455;
-}
-.question {
-    font-size: 36px;
-    text-align: center
-    
-    
-}
-.design {
-    text-align: center;
+.solutions-button:hover {
+  background-color: #404bbf;
 }
