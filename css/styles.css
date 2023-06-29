@@ -5,7 +5,7 @@
         --color-accent: #2e2f42;
         --color-background: #e7e9fc;
 --color-whitee: #ffffff;
-
+--color-cloud: #f4f4fd
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -20,7 +20,8 @@ color: var(--color-accent) ze: 18px;
   font-weight: 800;
   line-height: 21px;
   letter-spacing: 0.54px;
-
+font-size: 18px;
+letter-spacing: 0.03;
 
   line-height: 1.17;
 }
@@ -73,6 +74,7 @@ color: var(--color-accent) ze: 18px;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+line-height: 1.07
 }
 
 .solutions-button {
@@ -90,16 +92,16 @@ color: var(--color-accent) ze: 18px;
   background-color: #404bbf;
 }
 .design-tittle {
-  color: #2e2f42;
+  color: var(--color-accent);
   /* Header 3 */
   font-size: 20px;
   font-family: "Roboto", sans-serif;
-
+letter-spacing: 0.02em;
   font-weight: 500;
   line-height: 24px;
 }
 .design-info {
-  color: var(--slate, #434455);
+  color: var(--color-primary);
 
   /* Body */
   font-size: 16px;
@@ -108,18 +110,18 @@ color: var(--color-accent) ze: 18px;
   letter-spacing: 0.32px;
 }
 .foto-question {
-  color: #2e2f42;
+  color: var(--color-accent);
   text-align: center;
   /* Header 2 */
   font-size: 36px;
- 
+line-height: 1.11;
   font-weight: 700;
   line-height: 40px;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
 .team {
-  color: #2e2f42;
+color: var(--color-accent);
   font-size: 36px;
   
   font-weight: 700;
@@ -133,7 +135,7 @@ color: var(--color-accent) ze: 18px;
   background: #2e2f42;
 }
 .footer-logo {
-  color: var(--iris, #4d5ae5);
+  color: var(--color-secondary);
   font-size: 18px;
   font-family: "Raleway", sans-serif;
 
@@ -153,9 +155,9 @@ color: var(--color-accent) ze: 18px;
 
   font-size: 16px;
   font-family: "Raleway", sans-serif;
-
-  line-height: 24px;
-  letter-spacing: 0.32px;
+line-height: 1.17;
+letter-spacing: 0.03px;
+text-transform: uppercase;
 }
  .buttons-element {
   font-size: 16px;
@@ -165,7 +167,7 @@ color: var(--color-accent) ze: 18px;
   letter-spacing: 0.64px;
 }
 .posters-name {
-  color: var(--navyblue, #2e2f42);
+  color: var(--color-accent, );
  
   font-size: 20px;
   
@@ -174,7 +176,7 @@ color: var(--color-accent) ze: 18px;
   letter-spacing: 0.4px;
 }
 .info {
-  color: var(--slate, #434455);
+  color: var( --color-primary );
   /* Body */
   font-size: 16px;
   
