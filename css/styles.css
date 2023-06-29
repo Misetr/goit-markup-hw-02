@@ -1,5 +1,11 @@
+
 :root {
-  --text-color: #2e2f42;
+        --color-primary: #434455;
+        --color-secondary: #4d5ae5;
+        --color-accent: #2e2f42;
+        --color-background: #e7e9fc;
+--color-whitee: #ffffff;
+
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -8,13 +14,13 @@ body {
 }
 
 .header-logo {
-  color: var(--iris, #4d5ae5);
-  font-size: 18px;
+color: var(--color-accent) ze: 18px;
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 800;
   line-height: 21px;
   letter-spacing: 0.54px;
+
 
   line-height: 1.17;
 }
@@ -26,7 +32,7 @@ body {
 }
 
 .logo {
-  color: var(--navyblue, #2e2f42);
+ color: var(--color-accent);
   font-size: 18px;
   font-family: "Raleway", sans-serif;
 
@@ -38,8 +44,8 @@ body {
   display: inline-flex;
   align-items: flex-start;
   gap: 40px;
-  border-bottom: 1px solid var(--cornflower, #e7e9fc);
-  background: var(--white, #ffffff);
+  border-bottom: 1px solid var(--color-background);
+  background: var(--color-whitee);
 }
 .header-link {
   font-size: 16px;
@@ -50,7 +56,7 @@ body {
   letter-spacing: 0.32px;
 }
 .header-address {
-  color: var(--slate, #434455);
+  color: var(--color-primary);
   font-size: 16px;
   
 
