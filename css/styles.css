@@ -104,10 +104,10 @@ body {
   cursor: pointer;
 }
 
-a:hover {
+.solutions-button:hover {
   background-color: #404bbf;
 }
-a:focus {
+.solutions-button:focus {
   background-color: #404bbf;
 }
 .design-tittle {
