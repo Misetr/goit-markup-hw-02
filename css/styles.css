@@ -106,12 +106,15 @@ body {
   line-height: 24px;
   letter-spacing: 0.32px;
 }
+.foto {
+  line-height: 1.11;
+}
 .foto-question {
   color: var(--color-accent);
   text-align: center;
   /* Header 2 */
   font-size: 36px;
-  line-height: 1.11;
+  line-height: 1.11px;
   font-weight: 700;
   line-height: 40px;
   letter-spacing: 0.72px;
@@ -120,13 +123,23 @@ body {
 .team {
   color: var(--color-accent);
   font-size: 36px;
-
+  text-transform: capitalize;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.11px;
   letter-spacing: 0.72px;
+  text-align: center;
 }
 .team-b {
-  background: var(--color-cloud);
+  background-color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-accent);
+}
+.team-info {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .footer {
   background: var(--color-accent);
@@ -135,9 +148,10 @@ body {
   color: var(--color-secondary);
   font-size: 18px;
   font-family: "Raleway", sans-serif;
-
+  letter-spacing: 0.03em;
   font-weight: 800;
-  line-height: 21px;
+  text-transform: uppercase;
+  line-height: 1.17px;
 }
 .log-foter {
   color: var(--color-cloud);
@@ -152,8 +166,8 @@ body {
 
   font-size: 16px;
   font-family: "Raleway", sans-serif;
-  line-height: 1.17;
-  letter-spacing: 0.03px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
 }
 .buttons {
