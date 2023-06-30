@@ -168,7 +168,6 @@ body {
 }
 .footer {
   background: var(--color-accent);
-  line-height: 1.17;
 }
 .footer-logo {
   color: var(--color-secondary);
@@ -192,7 +191,7 @@ body {
 
   font-size: 16px;
   font-family: "Raleway", sans-serif;
-  line-height: 1.5;
+  line-height: 1.17;
   letter-spacing: 0.02em;
   text-transform: uppercase;
 }
@@ -211,13 +210,14 @@ body {
   letter-spacing: 0.04em;
   color: var(--color-secondary);
   background-color: var(--color-cloud);
+  cursor: pointer;
 }
-.buttons-element a:hover {
+.buttons-element :hover {
   color: #ffffff;
   background-color: #404bbf;
 }
 
-.buttons-element a:focus {
+.buttons-element :focus {
   background-color: #404bbf;
 }
 
