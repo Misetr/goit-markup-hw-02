@@ -13,7 +13,7 @@ body {
 }
 
 .header-logo {
-  color: var(--color-accent);
+  color: var(--color-secondary);
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 800;
@@ -49,19 +49,32 @@ body {
 }
 .header-link {
   font-size: 16px;
+  color: var(--color-primary);
 
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.32px;
 }
+.header-item a:hover {
+  color: #404bbf;
+}
+.header-item a:focus {
+  color: #404bbf;
+}
+
 .header-address {
   color: var(--color-primary);
   font-size: 16px;
   font-style: normal;
   line-height: 24px;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
-
+.contacts-item a:hover {
+  color: #404bbf;
+}
+.contacts-item a:focus {
+  color: #404bbf;
+}
 .solutions {
   background-color: var(--color-accent);
 }
@@ -85,8 +98,11 @@ body {
   cursor: pointer;
 }
 
-.solutions-button:hover {
-  background-color: var(--color-secondary);
+.solutions-button a:hover {
+  background-color: #404bbf;
+}
+.solutions-button a:focus {
+  background-color: #404bbf;
 }
 .design-tittle {
   color: var(--color-accent);
@@ -107,7 +123,7 @@ body {
   letter-spacing: 0.32px;
 }
 .foto {
-  line-height: 1.11;
+  line-height: 1.11px;
 }
 .foto-question {
   color: var(--color-accent);
@@ -121,6 +137,7 @@ body {
   text-transform: capitalize;
 }
 .team {
+  background-color: #f4f4fd;
   color: var(--color-accent);
   font-size: 36px;
   text-transform: capitalize;
@@ -133,12 +150,15 @@ body {
   background-color: #ffffff;
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   color: var(--color-accent);
 }
 .team-info {
-  line-height: 1.5;
+  color: var(--color-primary);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .footer {
@@ -177,6 +197,22 @@ body {
   line-height: 24px;
   letter-spacing: 0.64px;
 }
+.buttons-element {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-secondary);
+  background-color var(--color-cloud);
+ cursor: pointer;
+}  .buttons-element a:hover [ color: #FFFFFF;
+ background-color: #404BBf;
+ ]
+.buttons-element a:focus [
+  background-color: #404BBF;
+
+]
 .posters-name {
   color: var(--color-accent);
 
