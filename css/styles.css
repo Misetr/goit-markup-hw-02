@@ -5,6 +5,7 @@
   --color-background: #e7e9fc;
   --color-whitee: #ffffff;
   --color-cloud: #f4f4fd;
+  --color-hover-haeder: #404bbf;
 }
 
 body {
@@ -26,7 +27,6 @@ body {
 .link {
   text-decoration: none;
   margin: 0;
-  padding: 0;
 }
 
 .logo {
@@ -39,46 +39,36 @@ body {
 }
 
 .header-nav {
-  border-bottom: 1px solid var(--color-background);
+  /* bottom:border 1px solid var(--color-background); */
   background: var(--color-whitee);
-}
-
-.header-item {
-  color: var(--color-secondary);
-}
-
-.header-list {
-  color: var(--color-primary);
 }
 
 .header-link {
   font-size: 16px;
-  color: var(--color-primary);
+  color: var(--color-accent);
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.32px;
 }
-
-.header-item a:hover,
-.header-item a:focus {
-  color: #404bbf;
+.header-link:hover,
+.header-link:focus {
+  color: var(--color-hover-haeder);
 }
 
 .header-address {
-  color: var(--color-primary);
   font-size: 16px;
   font-style: normal;
   line-height: 24px;
   letter-spacing: 0.02em;
 }
 
-.header-contacts {
+.contacts-link {
   color: var(--color-primary);
 }
 
-.contacts-item a:hover,
-.contacts-item a:focus {
-  color: #404bbf;
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--color-hover-haeder);
 }
 
 .solutions {
@@ -87,7 +77,7 @@ body {
 
 .solutions-text {
   font-size: 56px;
-  text-align: center;
+
   letter-spacing: 0.02em;
   color: var(--color-whitee);
   line-height: 1.07;
@@ -132,10 +122,10 @@ body {
 
 .foto-question {
   color: var(--color-accent);
-  text-align: center;
+
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
@@ -143,19 +133,24 @@ body {
 .team {
   background-color: #f4f4fd;
 }
-
+.team-item {
+  background-color: #ffffff;
+}
 .team-tittle {
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  text-align: center;
+  color: var(--color-accent);
 }
 
 .team-name {
+  color: var(--color-accent);
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.11;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
@@ -178,7 +173,7 @@ body {
   letter-spacing: 0.03em;
   font-weight: 800;
   text-transform: uppercase;
-  line-height: 1.17px;
+  line-height: 1.17;
 }
 
 .log-foter {
@@ -194,7 +189,7 @@ body {
   color: var(--color-cloud);
   font-size: 16px;
   font-family: "Raleway", sans-serif;
-  line-height: 1.17px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-transform: uppercase;
 }
